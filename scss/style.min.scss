@@ -1,7 +1,7 @@
 $body-color: #eb4a4b;
 $white: #ffffff;
-$default-font: 'Open Sans', sans-serif;
-
+$opensans-font: 'Open Sans', sans-serif;
+$satisfy-font: 'Satisfy', cursive;
 *,
 *:before,
 *:after {
@@ -14,7 +14,7 @@ body {
     padding-bottom: 6rem;
     min-height: 100%;
     background: $body-color;
-    font-family: $default-font;
+    font-family: $opensans-font;
 }
 html {
     height: 100%;
@@ -43,13 +43,13 @@ html {
         margin-top: 0;
         color: $white;
         font-size: 40px;
-        font-family: 'Satisfy', cursive;
+        font-family: $satisfy-font;
     }
     .description {
         clear: left;
         margin: 12px 0;
         text-align: center;
-        font-family: $default-font;
+        font-family: $opensans-font;
         color: $white;
         font-size: 20px;
     }
@@ -76,7 +76,7 @@ html {
     text-align: center;
     .description-social {
         margin: 5px;
-        font-family: $default-font;
+        font-family: $opensans-font;
         color: $white;
         font-size: 16px;
     }
