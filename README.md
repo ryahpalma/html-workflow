@@ -1,5 +1,7 @@
 HTML Workflow
 ==================
+Node.js: https://nodejs.org/en/download/
+Git: https://git-scm.com/downloads
 
 Dependencies:
 - node / npm
