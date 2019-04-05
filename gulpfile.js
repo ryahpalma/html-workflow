@@ -18,7 +18,7 @@ gulp.task('sass', function() {
 // If you need to change your directory, change the values below "new_directory/*.scss"
     return gulp.src('scss/*.scss') // Folder directory and file extension
         .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError)) // In OutputStyle select if you want compact,expanded,nested or compressed
-        .pipe(gulp.dest('assets/css')) // Select the directory for the CSS file
+        .pipe(gulp.dest('assets/css')) // Select the directory for the CSS file "new_directory/css"
         .pipe(browserSync.stream());
 });
 
