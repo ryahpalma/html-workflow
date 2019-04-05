@@ -1,7 +1,7 @@
 {
   "name": "HTML Workflow",
   "version": "1.1",
-  "description": "Workflow for frond-end developers with BrowserSync and SASS",
+  "description": "Workflow for frond-end developers, with BrowserSync and SASS",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
