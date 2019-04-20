@@ -7,7 +7,6 @@ $satisfy-font: 'Satisfy', cursive;
 *:after {
     box-sizing: inherit;
 }
-
 body {
     position: relative;
     margin: 0;
@@ -85,8 +84,6 @@ html {
         max-width: 32px;
     }
 }
-
-
 .zoom:hover {
     -ms-transform: scale(1.0);
     -webkit-transform: scale(1.2); 
