@@ -9,9 +9,9 @@ Dependencies:
 - git
 - gulp
 
-Install gulp version 3.9.1:
+Install gulp version 4.0.0:
 ```sh
-$ npm install -g gulp@3.9.1
+$ npm install gulp -g
 ```
 
 Clone the repository:    
