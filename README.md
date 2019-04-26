@@ -9,7 +9,7 @@ Dependencies:
 - git
 - gulp
 
-Install gulp version 4.0.0:
+Install gulp:
 ```sh
 $ npm install gulp -g
 ```
